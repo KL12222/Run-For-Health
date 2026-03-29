@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แผนการฝึก</title>
+
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h2>contack</h2>
+                </div>
+                <ul class="menu" id="myMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index2.html">แผนการฝึก</a></li>
+                    <li><a href="index3.html">ป้องกันการบาดเจ็บ</a></li>
+                    <li><a href="pace.html">การคำนวน PACE</a></li>
+                </ul>
+                <div>
+                    <div class="ham-menu" onclick="toggleHam(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+            </div>
+            </style>
+    </header>
+
+    <nav>
+        <h1>แผนการฝึก</h1>
+    </nav>
+
+    <main>
+        <h2 class="content0">เลือกแผนการฝึก</h2>
+
+        <div class="container">
+
+            <div class="card">
+                <span class="badge green">มือใหม่</span>
+                <h3>แผนวิ่ง 5K</h3>
+                <p>📅 4 สัปดาห์</p>
+                <p>เหมาะสำหรับผู้เริ่มต้น</p>
+                <div class="goal">วิ่ง 5K ได้ใน 35-40 นาที</div>
+                <button><a href="https://www.otc-run.com/plan/5k/beginner-5k/beginner-4-week-5k" target="_blank">ดูรายละเอียด</a></button>
+            </div>
+
+            <div class="card">
+                <span class="badge blue">ปานกลาง</span>
+                <h3>แผนวิ่ง 10K</h3>
+                <p>📅 8 สัปดาห์</p>
+                <p>สำหรับคนที่เคยวิ่ง 5K</p>
+                <div class="goal">วิ่ง 10K ได้ใน 60-70 นาที</div>
+                <button><a href="https://stadiumth.com/articles/1486" target="_blank">ดูรายละเอียด</a></button>
+            </div>
+
+            <div class="card">
+                <span class="badge orange">ท้าทาย</span>
+                <h3>ฮาล์ฟมาราธอน</h3>
+                <p>📅 12 สัปดาห์</p> 
+                <p>ระยะ 21.1 กม.</p>
+                <div class="goal">เวลา 2-2.5 ชม.</div>
+                <button><a href="https://www.facebook.com/RUNKeepGoing/posts/%EF%B8%8F%EF%B8%8F%E0%B8%95%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%87%E0%B8%8B%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%A7%E0%B8%B4%E0%B9%88%E0%B8%87-211k-%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A-half-marathon-%E0%B9%81%E0%B8%A3%E0%B8%81-%E0%B8%8B%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B9%80%E0%B8%9E%E0%B8%B5%E0%B8%A2%E0%B8%87-12-%E0%B8%AA%E0%B8%B1%E0%B8%9B%E0%B8%94%E0%B8%B2%E0%B8%AB%E0%B9%8C%EF%B8%8F%EF%B8%8F%E0%B8%84%E0%B8%B3%E0%B9%81%E0%B8%99%E0%B8%B0%E0%B8%99%E0%B8%B3%E0%B8%88%E0%B8%B2%E0%B8%81-h/1257056872646180/" target="_blank">ดูรายละเอียด</a></button>
+            </div>
+
+            <div class="card">
+                <span class="badge purple">ขั้นสูง</span>
+                <h3>มาราธอน</h3>
+                <p>📅 16 สัปดาห์</p>
+                <p>ระยะ 42.195 กม.</p>
+                <div class="goal">เวลา 4-5 ชม.</div>
+                <button><a href="https://www.facebook.com/RUNKeepGoing/posts/%EF%B8%8F%E0%B8%95%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%87%E0%B8%8B%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%A7%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%A1%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%98%E0%B8%AD%E0%B8%99-42195k-%E0%B8%A0%E0%B8%B2%E0%B8%A2%E0%B9%83%E0%B8%99-16-%E0%B8%AA%E0%B8%B1%E0%B8%9B%E0%B8%94%E0%B8%B2%E0%B8%AB%E0%B9%8C%EF%B8%8F%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A7%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%EF%B8%8F%E0%B8%95%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%87%E0%B8%8B%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%9A/1298588955159638/" target="_blank">ดูรายละเอียด</a></button>
+            </div>
+        </div>
+
+        <h2 class="content1">ตัวอย่าง: แผนวิ่ง 5K สำหรับมือใหม่</h2>
+
+        <div class="container2">
+
+            <div class="header">
+                <h3>โปรแกรม 6 สัปดาห์</h3>
+                <p>เริ่มจากการสลับวิ่งและเดิน ค่อยๆ เพิ่มระยะทางวิ่ง</p>
+            </div>
+
+            <div class="text">
+
+                <div class="week">
+                    <h4>สัปดาห์ที่ 1</h4>
+                    <p>วิ่ง 2 นาที / เดิน 2 นาที (ทำ 7 รอบ) - 3 ครั้ง/สัปดาห์</p>
+                </div>
+
+                <div class="week">
+                    <h4>สัปดาห์ที่ 2</h4>
+                    <p>วิ่ง 3 นาที / เดิน 2 นาที (ทำ 6 รอบ) - 3 ครั้ง/สัปดาห์</p>
+                </div>
+
+                <div class="week">
+                    <h4>สัปดาห์ที่ 3</h4>
+                    <p>วิ่ง 5 นาที / เดิน 2 นาที (ทำ 5 รอบ) - 3 ครั้ง/สัปดาห์</p>
+                </div>
+
+                <div class="week">
+                    <h4>สัปดาห์ที่ 4</h4>
+                    <p>วิ่ง 7 นาที / เดิน 2 นาที (ทำ 4 รอบ) - 3 ครั้ง/สัปดาห์</p>
+                </div>
+
+                <div class="week">
+                    <h4>สัปดาห์ที่ 5</h4>
+                    <p>วิ่ง 10 นาที / เดิน 2 นาที (ทำ 3 รอบ) - 3 ครั้ง/สัปดาห์</p>
+                </div>
+
+                <div class="week">
+                    <h4>สัปดาห์ที่ 6</h4>
+                    <p>วิ่ง 20 นาที / เดิน 1 นาที / วิ่ง 15 นาที - 3 ครั้ง/สัปดาห์</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <h2 class="content2">แนวทางการดื่มน้ำ</h2>
+
+        <div class="container3">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ช่วงเวลา</th>
+                        <th>ปริมาณ</th>
+                        <th>คำแนะนำ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ก่อนวิ่ง (2-3 ชม.)</td>
+                        <td>400-600 มล.</td>
+                        <td>ดื่มน้ำเปล่าหรือน้ำอิเล็กโทรไลต์</td>
+                    </tr>
+                    <tr>
+                        <td>ระหว่างวิ่ง</td>
+                        <td>150-250 มล. ทุก 15-20 นาที</td>
+                        <td>สำหรับการวิ่งนานกว่า 60 นาที ควรดื่มน้ำกีฬา</td>
+                    </tr>
+                    <tr>
+                        <td>หลังวิ่ง</td>
+                        <td>150% ของน้ำหนักที่เสีย</td>
+                        <td>ชั่งน้ำหนักก่อน-หลังวิ่ง เพื่อคำนวณน้ำที่สูญเสีย</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

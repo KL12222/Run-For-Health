@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การคำนวน PACE</title>
+
+    <link rel="stylesheet" href="pacestyle.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h2>contack</h2>
+                </div>
+                <ul class="menu" id="myMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index2.html">แผนการฝึก</a></li>
+                    <li><a href="index3.html">ป้องกันการบาดเจ็บ</a></li>
+                    <li><a href="pace.html">การคำนวน PACE</a></li>
+                </ul>
+                <div>
+                    <div class="ham-menu" onclick="toggleHam(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+            </div>
+            </style>
+    </header>
+
+    <nav>
+        <h1>Running Pace Calculator</h1>
+    </nav>
+
+    <main>
+        <div class="container">
+            <h3 >PACE คืออะไร?</h3>
+            <p>Pace (เพซ) หมายถึง เวลาที่ใช้ในการวิ่งต่อ 1 กิโลเมตร ซึ่งยิ่งค่า Pace ต่ำเท่าไหร่ จะหมายความว่าใช้เวลายิ่งน้อยในการวิ่งระยะทาง 1 กิโลเมตร (ยิ่งน้อยยิ่งวิ่งเร็ว) และยังช่วยบอกความเร็วโดยรวมทั้งหมดตลอดระยะ ว่าใช้เวลาไปเท่าไหร่ ทำสถิติได้ดีกว่าครั้งก่อนไหม หรือ Pace สม่ำเสมอตลอดระยะทางการวิ่งหรือไม่</p>
+        </div>
+
+        
+        
+        <h2 class="content2">Pace Calculator</h2>
+
+        <div class="container0">
+
+            <label>ระยะทาง (กม.)</label>
+            <div class="text">
+                <input type="number" id="distance" placeholder="เช่น 5">
+            </div>
+
+            <label>เวลา</label>
+            <div class="text2">
+                <input type="number" id="hours" placeholder="ชม.">
+                <input type="number" id="minutes" placeholder="นาที">
+                <input type="number" id="seconds" placeholder="วิ">
+            </div>
+
+            <button onclick="calculatePace()">คำนวณ</button>
+
+            <h2 id="result">Pace: -</h2>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
