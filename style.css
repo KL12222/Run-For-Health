@@ -7,6 +7,7 @@
 header {
     position: sticky;
     top: 0;
+    padding-bottom: 1cm;
     background-color: #333;
     z-index: 100;
 }
@@ -25,7 +26,7 @@ nav {
 }
 
 .nav-wrapper .logo h2 {
-    font-size: 300px;
+    font-size: 30px;
     color: #333;
     text-decoration: none;
 }
@@ -290,13 +291,13 @@ main .container:hover {
 @media (max-width:880px) {
     .fame1 img {
         margin-left: 1cm;
-        margin-top: 7cm;
+        margin-top: 8cm;
         width: 500px;
     }
 
     .page button {
         margin-left: 3.5cm;
-        margin-top: 12cm;
+        margin-top: 13cm;
         padding: 10px 20px;
         min-width: 120px;
         white-space: nowrap;
@@ -310,13 +311,13 @@ main .container:hover {
 @media (max-width:600px) {
     .fame1 img {
         margin-left: 1cm;
-        margin-top: 7.5cm;
+        margin-top: 8.5cm;
         width: 300px;
     }
 
     .page button {
         margin-left: 3.5cm;
-        margin-top: 12cm;
+        margin-top: 13cm;
         padding: 10px 20px;
         min-width: 120px;
         white-space: nowrap;
@@ -330,13 +331,13 @@ main .container:hover {
 @media (max-width:480px) {
     .fame1 img {
         margin-left: 1cm;
-        margin-top: 7.5cm;
+        margin-top: 9cm;
         width: 280px;
     }
 
     .page button {
         margin-left: 3.5cm;
-        margin-top: 11.7cm;
+        margin-top: 13.5cm;
         padding: 10px 20px;
         min-width: 120px;
         white-space: nowrap;
@@ -350,13 +351,13 @@ main .container:hover {
 @media (max-width:400px) {
     .fame1 img {
         margin-left: 1cm;
-        margin-top: 9cm;
+        margin-top: 10cm;
         max-width: 300px;
     }
 
     .page button {
         margin-left: 3.5cm;
-        margin-top: 13.5cm;
+        margin-top: 14.5cm;
         padding: 10px 20px;
         min-width: 120px;
         white-space: nowrap;
@@ -370,13 +371,13 @@ main .container:hover {
 @media (max-width:320px) {
     .fame1 img {
         margin-left: 0.5cm;
-        margin-top: 9cm;
+        margin-top: 10cm;
         max-width: 300px;
     }
 
     .page button {
         margin-left: 2.7cm;
-        margin-top: 13.5cm;
+        margin-top: 14.5cm;
         white-space: nowrap;
         padding: 10px 20px;
         min-width: 120px;
