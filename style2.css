@@ -274,6 +274,38 @@ button:hover {
     color: #555;
 }
 
+/***********  ความสำคัญของการดื่มน้ำ ***********/
+.container0 {
+    background-color: white;
+    /* สีพื้น */
+    border-radius: 15px;
+    /* มุมโค้ง */
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    /* เงา */
+
+    max-width: 900px;
+    margin: 60px auto;
+    transition: 0.3s;
+    margin-top: 4cm;
+}
+
+.container0 h3 {
+    margin: 1rem;
+    padding-top: 2rem;
+
+}
+
+.container0 p {
+    margin: 0 1rem;
+    padding-bottom: 1rem;
+}
+
+.container0:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
 
 /**************** แนวทางการดื่มน้ำ ****************/
 

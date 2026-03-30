@@ -163,37 +163,6 @@ main .container:hover {
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
 }
 
-/***********  ความสำคัญของการดื่มน้ำ ***********/
-.container0 {
-    background-color: white;
-    /* สีพื้น */
-    border-radius: 15px;
-    /* มุมโค้ง */
-
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    /* เงา */
-
-    max-width: 900px;
-    margin: 60px auto;
-    transition: 0.3s;
-    margin-top: 1cm;
-}
-
-.container0 h3 {
-    margin: 1rem;
-    padding-top: 2rem;
-
-}
-
-.container0 p {
-    margin: 0 1rem;
-    padding-bottom: 1rem;
-}
-
-.container0:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
-}
 
 /***********  หลักการสำคัญสำหรับผู้เริ่มต้น ***********/
 
@@ -282,12 +251,14 @@ main .container:hover {
 }
 
 .text {
-    padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px;
 }
 
-.text span {
-    padding: 0 2rem;
-    padding-left: 10px;
+.text p {
+  margin: 0;
 }
 
 @media (max-width:880px) {
@@ -371,6 +342,7 @@ main .container:hover {
 }
 
 @media (max-width:320px) {
+
     .fame1 img {
         margin-left: 0.5cm;
         margin-top: 10cm;
@@ -475,7 +447,7 @@ button {
     overflow: hidden;
     background: #f9fafb;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-    transition: 0.3s ;
+    transition: 0.3s;
     margin-top: 5cm;
     margin-bottom: 2cm;
 }
@@ -497,7 +469,7 @@ button {
     opacity: 0.9;
 }
 
-.text {
+.text2 {
     padding: 20px;
 }
 
@@ -512,7 +484,7 @@ button {
     color: #555;
 }
 
-.header button{
+.header button {
     white-space: nowrap;
 }
 
